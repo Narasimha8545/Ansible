@@ -1,23 +1,28 @@
-#!/bin/bash
+ 
+ echo "enter the marks"
+ 
+ read marks
+ 
+if [ $marks -lt 0 ] || [ $marks -gt 100 ]
+then
+echo "invalid marks"
 
-even_count=0
-odd_count=0
-even_number=""
-odd_number=""
-
-for number in {1..100}
-do
-    if (( number % 2 == 0 ))
-    then
-        even_number="$even_number "
-        even_count=$((even_count+1))
-    else
-        odd_number="$odd_number "
-        odd_count=$((odd_count+1))
-    fi
-done
-
-echo "Even numbers: $even_number"
-echo "Odd numbers: $odd_number"
-echo "Even number count: $even_count"
-echo "Odd number count: $odd_count"
+elif [ $marks -ge 90 ]
+then
+ echo "your grade is A and your marks is $marks"
+ 
+ elif [ $marks -ge 80 ]
+then
+ echo "your grade is B and your marks is $marks"
+ 
+ elif [ $marks -ge 70 ]
+then
+ echo "your grade is C and your marks is $marks"
+ 
+elif [ $marks -ge  60 ]
+then
+ echo "your grade is D and your marks is $marks"
+ 
+else
+ echo "your grade is F and your marks is $marks"
+ fi

@@ -8,3 +8,5 @@ else
     echo "number is odd:$number"
     fi
   done  
+    echo "number is even:$number"
+     echo "number is odd:$number"

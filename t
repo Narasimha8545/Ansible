@@ -5,11 +5,11 @@ do
 if (( $number%2==0 ))
 then 
     echo "number is even:$number"
-    echo "even numbers count=(($even_count+1))
+    echo "even numbers count=(($even_count+1))"
 
 else 
     echo "number is odd:$number"
-    echo "odd numbers count=(($even_count+1))
+    echo "odd numbers count=(($even_count+1))"
 
     fi
   done  

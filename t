@@ -9,10 +9,10 @@ for number in {1..100}
 do
     if (( number % 2 == 0 ))
     then
-        even_number="$even_number $number"
+        even_number="$even_number "
         even_count=$((even_count+1))
     else
-        odd_number="$odd_number $number"
+        odd_number="$odd_number "
         odd_count=$((odd_count+1))
     fi
 done

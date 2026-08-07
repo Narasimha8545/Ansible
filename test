@@ -1,12 +1,16 @@
-
+even_count=0
+odd_count=0
 for number in {1..100}
 do
 if (( $number%2==0 ))
 then 
     echo "number is even:$number"
+    echo "even numbers count=(($even_count+1))
+
 else 
     echo "number is odd:$number"
+
     fi
   done  
-    echo "number is even:$number"
-     echo "number is odd:$number"
+           echo "even numbers count=(($even_count+1))
+           echo "even numbers count=(($even_count+1))

@@ -1,9 +1,8 @@
 
 for i in {1..100}
-if ( $number%2=0 )
+if (( $number%2==0 ))
 then 
     echo "list of even numbers:$number"
 elso 
     echo "list of odd numbers:$number"
     fi
-    

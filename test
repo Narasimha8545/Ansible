@@ -9,8 +9,7 @@ then
 
 else 
     echo "number is odd:$number"
+    echo "odd numbers count=(($even_count+1))
 
     fi
   done  
-           echo "even numbers count=(($even_count+1))
-           echo "even numbers count=(($even_count+1))

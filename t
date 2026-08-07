@@ -7,10 +7,10 @@ for number in {1..100}
 do
     if (( number % 2 == 0 ))
     then
-        echo "number is even: $number"
-        even_count=$((even_count+1))
+         even_number="$even_number $number"
+         even_count=$((even_count+1))
     else
-        echo "number is odd: $number"
+        odd_connt="$odd_count $number"
         odd_count=$((odd_count+1))
     fi
 done

@@ -1,8 +1,10 @@
 
 for number in {1..100}
+do
 if (( $number%2==0 ))
 then 
     echo "list of even numbers:$number"
 elso 
     echo "list of odd numbers:$number"
     fi
+  done  

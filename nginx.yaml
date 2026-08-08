@@ -4,7 +4,7 @@ become: yes
 tasks: # list of tasks
 
 -name: install nginx
-   ansible.builtin.package:
+ansible.builtin.package:
    name:nginx
    state:prasent
    

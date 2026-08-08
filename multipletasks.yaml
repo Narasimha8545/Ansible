@@ -1,4 +1,4 @@
-- name: play-book-1 and task
+- name: play1
   hosts: local
   connection: local
 
@@ -6,16 +6,22 @@
  
    - name: playbook-1 and task-1
      ansible.builtin.debug:
-      msg: "play book-1 and task-1"
+      msg: "playbook-1 and task-1"
    
    - name: playbook-1 and task-2
      ansible.builtin.debug:
-      msg: "play book-1 and task-2"
+      msg: "playbook-1 and task-2"
    
+- name: play2
+  hosts: local
+  connection: local
+
+  tasks: # list of tasks
+ 
    - name: playbook-2 and task-1
      ansible.builtin.debug:
       msg: "play book-2 and task-1"
    
    - name: playbook-2 and task-2
      ansible.builtin.debug:
-      msg: "play book-2 and task-1"
+      msg: "play book-2 and task-2"

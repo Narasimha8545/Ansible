@@ -1,6 +1,6 @@
 - name: without variables from the inventory
-  hosts: frontend
-  #connection: local
+  hosts: local
+  connection: local
 
   tasks:
     - name: vwithout ariables from the inventory

@@ -5,11 +5,11 @@
 
     - name: username
       prompt: enter the user name
-      private: false
+      private: True
 
     - name: password
       prompt: enter the password
-      private: false
+      private: True
 
   tasks: # list of tasks
     - name: printing user information

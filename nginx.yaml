@@ -5,8 +5,8 @@ tasks: # list of tasks
 
 -name: install nginx
 ansible.builtin.package:
-   name:nginx
-   state:prasent
+name: nginx
+state: prasent
    
    -name: start inginx
     ansible.builtin.service:

@@ -14,8 +14,8 @@
    
    - name: playbook-2 and task-1
      ansible.builtin.debug:
-      msg: "play book-1 and task-1"
+      msg: "play book-2 and task-1"
    
    - name: playbook-2 and task-2
      ansible.builtin.debug:
-      msg: "play book-1 and task-1"
+      msg: "play book-2 and task-1"

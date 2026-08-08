@@ -4,5 +4,5 @@
   tasks: #tasks
 
    - name: varibles from the inventory
-     ansible.builtin.debung:
+     ansible.builtin.debug:
       msg: "Hello i am lerning {{ course }}, duration is {{ duration }}, trainer is: {{ trainer }}"

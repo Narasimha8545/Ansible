@@ -1,7 +1,7 @@
 -name: install nginx and run nginx
-hosts:frontend
-become:yes
-tasks:# list of tasks
+hosts: frontend
+become: yes
+tasks: # list of tasks
 
 -name: install nginx server
 ansible.builtin.package:

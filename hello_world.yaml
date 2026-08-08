@@ -4,6 +4,6 @@
   tasks: # tasks
 
    - name: print hello world
-     ansible.bulitin.debug:
+     ansible.builtin.debug:
        MSG: "hello world"
   

@@ -1,0 +1,16 @@
+- name: varibles from frompt
+  hosts: local
+  connection:  local
+  vars_prompt:
+  - name: username
+    prompt: enter the user name
+    private: true
+
+  - password: password
+    prompt: enter the password
+    private: true
+
+  tasks: # list of tasks
+  - name: printing user information
+    ansible.builtin.debug:
+     msg: "user name is {{ username }} and password is {{ password }}"

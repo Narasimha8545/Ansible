@@ -1,0 +1,8 @@
+- name: without varibles from the inventory
+  hosts: local
+  connection: local
+  tasks: #tasks
+
+   - name: varibles from the inventory
+     ansible.builtin.debung:
+      msg: "Hello i am lerning {{ course }}, duration is {{ duration }}, trainer is: {{ trainer }}"

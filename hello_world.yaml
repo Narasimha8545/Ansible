@@ -1,9 +1,9 @@
--name: hello world
-hosts: local
-connection: local # no need to username and password
-tasks: # tasks
+- name: hello world
+  hosts: local
+  connection: local # no need to username and password
+  tasks: # tasks
 
--name: print hello world
-ansible.bulitin.debug:
-MSG: "hello world"
+  - name: print hello world
+    ansible.bulitin.debug:
+      MSG: "hello world"
   

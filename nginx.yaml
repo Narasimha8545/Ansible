@@ -8,8 +8,8 @@ ansible.builtin.package:
 name: nginx
 state: prasent
    
-   -name: start inginx
-    ansible.builtin.service:
-	name: nginx
-	state: started
-	enabled: yes
+-name: start inginx
+ansible.builtin.service:
+name: nginx
+state: started
+enabled: yes

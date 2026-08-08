@@ -1,8 +1,8 @@
-- name: variables from the inventory
+- name: without variables from the inventory
   hosts: local
   connection: local
 
   tasks:
-    - name: variables from the inventory
+    - name: vwithout ariables from the inventory
       ansible.builtin.debug:
         msg: "Hello i am learning {{ course }}, duration is {{ duration }}, trainer is {{ trainer }}"

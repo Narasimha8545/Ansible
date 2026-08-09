@@ -9,9 +9,9 @@
     - linux
     - shell
     - ansible
-     concepts: # map or directory or object. refered like {}
-     CI: Jeckins
-     scripting: "Shell, ansible, Terroform, python"
+      concepts: # map or directory or object. refered like {}
+      CI: Jeckins
+      scripting: "Shell, ansible, Terroform, python"
   tasks: 
   - names: print course information
     ansible.builtin.debug:

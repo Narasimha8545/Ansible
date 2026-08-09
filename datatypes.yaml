@@ -1,18 +1,23 @@
+---
 - name: Ansible datatypes
-  hosts: local
+  hosts: localhost
   connection: local
+
   vars:
-   duration: 120 # this is number
-   course: DevOps # Srring
-   is_live: true # boolean
-   tools: list []
-    - linux
-    - shell
-    - ansible
-   concepts: # map or directory or object. refered like {}
-      CI: Jeckins
-      scripting: "Shell, ansible, Terroform, python"
-  tasks: 
-    - names: print course information
+    duration: 120
+    course: DevOps
+    is_live: true
+
+    tools:
+      - linux
+      - shell
+      - ansible
+
+    concepts:
+      CI: Jenkins
+      scripting: "Shell, Ansible, Terraform, Python"
+
+  tasks:
+    - name: Print course information
       ansible.builtin.debug:
-          msg: "course is: {{ course }}, duration: {{ duration }}. is live {{ is_live }} tool are: {{ tools }}, concepts ae {{ concepts }}"
+        msg: "Course is: {{ course }}, duration: {{ duration }}, is live: {{ is_live }}, tools are: {{ tools }}, concepts are: {{ concepts }}"

@@ -13,6 +13,6 @@
       CI: Jeckins
       scripting: "Shell, ansible, Terroform, python"
   tasks: 
-      - names: print course information
-        ansible.builtin.debug:
+    - names: print course information
+      ansible.builtin.debug:
           msg: "course is: {{ course }}, duration: {{ duration }}. is live {{ is_live }} tool are: {{ tools }}, concepts ae {{ concepts }}"

@@ -9,7 +9,7 @@
     - linux
     - shell
     - ansible
-      concepts: # map or directory or object. refered like {}
+   concepts: # map or directory or object. refered like {}
       CI: Jeckins
       scripting: "Shell, ansible, Terroform, python"
   tasks: 

@@ -1,0 +1,8 @@
+- name: playbook gathering facts with ansible
+  hosts: local
+  connection: local
+
+  tasks: 
+  - name: print gathering fact
+    ansible.builtin.debung:
+     msg: "ansible_facts"

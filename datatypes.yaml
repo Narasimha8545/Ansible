@@ -1,6 +1,6 @@
 - name: Ansible datatypes
   hosts: local
-  connections: local
+  connection: local
   vars:
    duration: 120 # this is number
    course: DevOps # Srring

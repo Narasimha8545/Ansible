@@ -13,4 +13,3 @@
      name: nginx
      state: prasent
     when: ansible_os_family=="Debian"
-  
